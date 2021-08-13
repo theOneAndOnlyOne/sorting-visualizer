@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;900&display=swap');
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #112432;
+  }
+  
+li {
+  float: left;
+  position: center;
+}
+
+h3 {
+  text-transform: uppercase;
+  font-size: 1.35em;
+  line-height: 1.5em;
+  font-weight: 600;
+  animation: blink;
+}
+
+input{
+  margin-left: 10%;
+  margin-right:100px;
+  margin-top: 25px;
+  display: inline-block;
+  -webkit-appearance: none;
+  width: 500px;
+  height: 10px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+
+input:hover {
+  opacity: 1;
+}
+
+input::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  background: #45A29E;
+  cursor: pointer;
+}
+
+input::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  background: #45A29E;
+  cursor: pointer;
+}
+
+a.button1 {
+  display:block;
+  padding:1.2em 1.2em;
+  border:0.1em solid #45A29E;
+  margin:0 0.3em 0.3em 0;
+  border-radius: 0.5em;
+  box-sizing: border-box;
+  text-decoration:none;
+  font-family: 'Roboto', Helvetica, sans-serif;
+  font-weight:300;
+  color:#FFFFFF;
+  text-align:center;
+  transition: all 0.2s;
+}
+
+a.reset {
+
+  margin-left: 5%;
+  margin-right: 10%;
+  border:none;
+  background-color:#00ff80;
+  color:#112432;
+
+}
+
+a.button1:hover{
+    cursor: pointer;
+    color:#112432;
+    background-color: #66FCF1;
+
+}
+
+a.reset:hover{
+
+    border: none;
+    color:#112432;
+    background-color: #FFFFFF;
+
+}
+
+.sorting-buttons {
+
+  display: center;
+  margin-top: 10px;
+  margin-right: auto;
+
+}
+
+.array-container {
+    position: center;
+    background: #1F2833;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+.array-bar {
+
+
+    width:0.75%;
+    background-color:#66FCF1;
+    display: inline-block;
+    margin: 0 0.5px;
+}
+
+
+footer {
+  padding: 6em 0 6em 0 ;
+  color: rgba(255, 255, 255, 0.75);
+  text-align: center;
+}
+
+  #footer h1, #footer h2, #footer h3, #footer h4, #footer h5, #footer h6, #footer strong, #footer b {
+    color: #ffffff;
+  }
